@@ -28,5 +28,9 @@ The auto storage class is the default storage class for all ***local variables**
 - The static storage class instructs the compiler to keep a ***local variable*** in existence during the ***life-time*** of the program instead of creating and destroying it each time it comes into and goes out of scope. 
 - The static modifier can also be applied to ***global variable***, which causes that variable's scope to be restricted to the file in which it is declared and one copy of that member to be shared by all the objects of its class.
 
+## extern
+- The extern storage class is used to give a reference of a ***global variable*** that is visible to ***ALL*** the program files. It means that 
+
+
 
 

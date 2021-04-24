@@ -1,4 +1,4 @@
-A storage class defines the scope (visibility) and life-time of variables and/or functions within a C Program. 
+A storage class defines the **scope** (visibility) and **life-time **of variables and/or functions within a C Program. 
 
 We have four different storage classes in a C program :
 1. auto
@@ -25,7 +25,7 @@ The auto storage class is the default storage class for all local variables.
 }
 ```
 ## static
-- 
+- The static storage class instructs the compiler to keep a **local variable** in existence during the life-time of the program instead of creating and destroying it each time it comes into and goes out of scope. 
 
 
 

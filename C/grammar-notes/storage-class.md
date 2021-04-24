@@ -25,7 +25,8 @@ The auto storage class is the default storage class for all ***local variables**
 }
 ```
 ## static
-- The static storage class instructs the compiler to keep a ***local variable*** in existence during the life-time of the program instead of creating and destroying it each time it comes into and goes out of scope. 
+- The static storage class instructs the compiler to keep a ***local variable*** in existence during the ***life-time*** of the program instead of creating and destroying it each time it comes into and goes out of scope. 
+- The static modifier can also be applied to ***global variable***,
 
 
 

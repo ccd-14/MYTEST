@@ -32,6 +32,30 @@ The ***auto*** storage class is the default storage class for all ***local varia
 - The ***extern*** storage class is used to give a reference of a ***global variable*** that is visible to ***ALL*** the program files. It means that you define a ***global variable*** or ***function***, which will also be used in other files.
 - The extern modifier is most commonly used when there are two or more files sharing the same global variables or functions.
 
+**First File:main.c**
+```c
+#include <stdio.h>
+ 
+int count ;
+extern void write_extern();
+ 
+main() {
+   count = 5;
+   write_extern();
+}
+```
+**Second File: support.c**
+```c
+#include <stdio.h>
+ 
+extern int count;
+ 
+void write_extern(void) {
+   printf("count is %d\n", count);
+}
+```
+
+
 
 
 

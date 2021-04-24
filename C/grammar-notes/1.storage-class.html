@@ -2,7 +2,7 @@
    int mount;   //default auto
    auto int month;
 }
-</pre><p><br></p><p><br></p><h2>register</h2><p>The&nbsp;<strong>register</strong>&nbsp;storage class is used to define <span style="color: rgb(230, 0, 0);">local variables</span> that should be stored in a <span style="color: rgb(230, 0, 0);">register</span> instead of RAM.&nbsp;This means that the variable has a maximum size equal to the register size (usually one word)&nbsp;.</p><pre class="ql-syntax" spellcheck="false">{
+</pre><p><br></p><p><br></p><h2>register</h2><p>The&nbsp;<strong>register</strong>&nbsp;storage class is used to define <span style="color: rgb(230, 0, 0);">local variables</span> that <span style="color: rgb(230, 0, 0);">should</span> be stored in a <span style="color: rgb(230, 0, 0);">register</span> instead of RAM.&nbsp; it MIGHT be stored in a register depending on hardware and implementation restrictions.</p><p>This means that the variable has a maximum size equal to the register size (usually one word)&nbsp;.</p><pre class="ql-syntax" spellcheck="false">{
    register int  counter;
 }
 </pre><p><br></p>

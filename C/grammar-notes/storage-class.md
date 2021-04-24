@@ -7,7 +7,7 @@ We have four different storage classes in a C program :
 4. extern
 
 ## auto
-The auto storage class is the default storage class for all l==ocal variables.==
+The auto storage class is the default storage class for all ==local variables.==
 ```
 {
    int mount;   //default auto

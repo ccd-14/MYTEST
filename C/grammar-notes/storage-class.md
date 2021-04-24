@@ -24,5 +24,8 @@ The auto storage class is the default storage class for all local variables.
    register int  counter;
 }
 ```
+## static
+- 
+
 
 

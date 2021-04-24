@@ -8,7 +8,7 @@ We have four different storage classes in a C program :
 
 ## auto
 The auto storage class is the default storage class for all ==local variables==.
-```
+```c
 {
    int mount;   //default auto
    auto int month;
@@ -19,7 +19,7 @@ The auto storage class is the default storage class for all ==local variables==.
 - it MIGHT be stored in a register depending on hardware and implementation restrictions.
 - If the variable is storaged in a register, which has a maximum size equal to the register size (usually one word) .
 - The register should only be used for variables that require quick access such as counters.
-```
+```c
 {
    register int  counter;
 }
